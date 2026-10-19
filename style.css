@@ -85,6 +85,7 @@ h2 {
 h3 { font-size: 1rem; font-weight: 600; }
 
 .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 28px 40px; }
+.grid > div:last-child:nth-child(odd) { grid-column: 1 / -1; }
 .grid h3 { font-size: 0.74rem; letter-spacing: 0.14em; text-transform: uppercase; color: var(--accent); margin-bottom: 8px; }
 .grid p { font-size: 0.95rem; color: #2b3445; }
 
